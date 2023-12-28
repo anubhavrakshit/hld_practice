@@ -18,7 +18,10 @@
    her location. Lets assume per user data a 1KB. So total data is 50 Million * 1 KB = 50 TB.
 4. For each active user the system will continously storing/updating Geographical position data. Lets say its around 100Bytes per second. So the plaform will need to continously store 100Bytes x 5 Million = 500MB/s of position data.
 
-## Core Algorithm and data structure to use
+## Core Algorithm and Data Structures to use
 1. The key challenge is to represent geo data in such a way that we can quickly search nearby drivers. Also figure out the shortest path between locations.
 2. Lets say we have some location service that can ingest Cab locations and can be queried to find the nearby cabs.
 3. Lets also assume we have Shortest Path calculator between locations. Maybe we can use Dijikstra's or A* algos in them.
+
+## HLD Diagram
+[link](./Uber_hld.pdf)
