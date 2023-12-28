@@ -25,3 +25,8 @@
 
 ## HLD Diagram
 [link](./Uber_hld.pdf)
+The key services are:
+1. Ride Management Service. This is used to request for a ride by user and to accept/reject a ride by driver.
+2. Ride Match Service. Given a user request it can match nearby drivers.
+3. Location Ingest Service. This will contnously update location feeds from driver.
+4. Notification Service. This will notify drivers of a nearby ride request.
