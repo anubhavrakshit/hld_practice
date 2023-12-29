@@ -31,4 +31,4 @@
 1. Notification Service will send new chat messages and delivery notifications. Large media content will be downloaded from Media service.
 
 # High Level Diagram
-[link](./WhatsApp_hld.pdf)
+[WhatsApp High Level Design Diagram](./WhatsApp_hld.pdf)
